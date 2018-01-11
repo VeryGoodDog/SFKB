@@ -1,0 +1,17 @@
+{
+  "name": "space_faring_kiss_boys",
+  "version": "0.1.0",
+  "description": "A game about boys who kiss each other in space.",
+  "main": "main.js",
+  "scripts": {
+    "start": "electron ."
+  },
+  "keywords": [
+    "game"
+  ],
+  "author": "VeryGoodDog",
+  "license": "ISC",
+  "dependencies": {
+    "electron": "^1.7.10"
+  }
+}
