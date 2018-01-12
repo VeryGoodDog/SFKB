@@ -12,6 +12,7 @@
   "author": "VeryGoodDog",
   "license": "ISC",
   "dependencies": {
-    "electron": "^1.7.10"
+    "electron": "^1.7.10",
+    "phaser": "^2.6.2"
   }
 }
