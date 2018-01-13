@@ -4,8 +4,10 @@ const { app, BrowserWindow } = electron
 let win
 
 app.on('ready',() => {
-  win = new BrowserWindow([500,500])
-  win.loadURL(`file://${__dirname}/index.html`)
+  win = new BrowserWindow()
+  win.maximize()
+  win.openDevTools({mode:'undocked'})
+  win.loadURL(`file://${__dirname}/src/page/index.html`)
 })
 
 app.on('win-all-closed',() => {

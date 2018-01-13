@@ -1,0 +1,21 @@
+{"frames": {
+
+"Adventure 3 Sprite.png":
+{
+	"frame": {"x":0,"y":0,"w":25,"h":32},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":25,"h":32},
+	"sourceSize": {"w":25,"h":32},
+	"pivot": {"x":0.5,"y":0.5}
+}},
+"meta": {
+	"app": "http://www.codeandweb.com/texturepacker",
+	"version": "1.0",
+	"image": "spritesheet.png",
+	"format": "RGBA8888",
+	"size": {"w":25,"h":32},
+	"scale": "1",
+	"smartupdate": "$TexturePacker:SmartUpdate:406d1101f107f41cdd28539eb8890755:1e6c198841173576ee546f9c7ac26716:729adc6043343cfda41c447ce8f464d6$"
+}
+}

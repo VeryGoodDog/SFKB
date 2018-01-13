@@ -13,6 +13,7 @@
   "license": "ISC",
   "dependencies": {
     "electron": "^1.7.10",
-    "phaser": "^2.6.2"
+    "phaser-ce": "^2.9.4",
+    "pixi.js": "^4.6.2"
   }
 }
