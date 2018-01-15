@@ -8,15 +8,15 @@ let game = new window.Phaser.Game({
   width: window.innerWidth,
   height: window.innerHeight,
   renderer: window.Phaser.WEBGL,
-  antialias: false,
   parent: 'game-div'
 })
-
 
 let statesDir = `${__dirname}/states`
 let states = fs.readdirSync(statesDir)
 
 for (state of states) {
+  state = state.split('.')[0]
   game.state.add(state, require(`./states/${state}.js`))
 }
+
 game.state.start('boot')

@@ -1,0 +1,28 @@
+{
+  "mainMenu": [
+    {
+      "type": "image",
+      "key": "pointer",
+      "url": "../images/pointer.png",
+      "overwrite": false
+    },
+    {
+      "type": "image",
+      "key": "startButton",
+      "url": "../images/start.png",
+      "overwrite": false
+    },
+    {
+      "type": "image",
+      "key": "logo",
+      "url": "../images/logo.png",
+      "overwrite": false
+    },
+    {
+      "type": "image",
+      "key": "miles",
+      "url": "../images/miles front 1.png",
+      "overwrite": false
+    }
+  ]
+}
