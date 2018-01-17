@@ -1,15 +1,12 @@
 {
-  "mainMenu": [
+  "everything": [
     {
-      "type": "image",
-      "key": "pointer",
-      "url": "../images/pointer.png",
-      "overwrite": false
-    },
-    {
-      "type": "image",
+      "type": "spritesheet",
       "key": "startButton",
       "url": "../images/start.png",
+      "frameWidth": 200,
+      "frameHeight": 112,
+      "frameMax": 2,
       "overwrite": false
     },
     {
@@ -20,8 +17,8 @@
     },
     {
       "type": "image",
-      "key": "miles",
-      "url": "../images/miles front 1.png",
+      "key": "pointer",
+      "url": "../images/pointer.png",
       "overwrite": false
     }
   ]
